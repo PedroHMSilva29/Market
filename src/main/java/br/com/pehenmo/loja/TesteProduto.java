@@ -19,7 +19,7 @@ import java.util.List;
  * //@Enumerated(EnumType.STRING) quando for Enum e queremos pegar o valor String ao inves da ordem (int)
  *
  */
-public class Teste {
+public class TesteProduto {
     public static void main(String[] args) {
 
         Categoria celulares = new Categoria("CELULARES"); // objeto no estado transient

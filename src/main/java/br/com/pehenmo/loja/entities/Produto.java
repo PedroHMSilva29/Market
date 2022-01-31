@@ -19,7 +19,7 @@ public class Produto {
     private BigDecimal preco;
     private LocalDate dataCadastro = LocalDate.now();
 
-    @ManyToOne //existem muitos produtos para uma categoria
+    @ManyToOne(fetch = FetchType.LAZY) //existem muitos produtos para uma categoria
     private Categoria categoria;
 
     public Produto() {}
